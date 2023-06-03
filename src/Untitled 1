@@ -1,0 +1,203 @@
+###############03-06-2023########Start#######################
+admin@DESKTOP-7I26G43 MINGW64 /c
+$ cd c:
+
+admin@DESKTOP-7I26G43 MINGW64 /c
+$ cd Users/
+
+admin@DESKTOP-7I26G43 MINGW64 /c/Users
+$ cd admin/
+
+
+admin@DESKTOP-7I26G43 MINGW64 ~
+$
+
+admin@DESKTOP-7I26G43 MINGW64 ~
+$ cd Basha
+bash: cd: Basha: No such file or directory
+
+admin@DESKTOP-7I26G43 MINGW64 ~
+$ cd Documents/
+
+admin@DESKTOP-7I26G43 MINGW64 ~/Documents
+$ cd workspace-sts-3.9.12.RELEASE/
+
+admin@DESKTOP-7I26G43 MINGW64 ~/Documents/workspace-sts-3.9.12.RELEASE
+$ cd Java8Examples/
+
+admin@DESKTOP-7I26G43 MINGW64 ~/Documents/workspace-sts-3.9.12.RELEASE/Java8Examples
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+admin@DESKTOP-7I26G43 MINGW64 ~/Documents/workspace-sts-3.9.12.RELEASE/Java8Examples
+$ git init
+Initialized empty Git repository in C:/Users/admin/Documents/workspace-sts-3.9.12.RELEASE/Java8Examples/.git/
+
+admin@DESKTOP-7I26G43 MINGW64 ~/Documents/workspace-sts-3.9.12.RELEASE/Java8Examples (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .classpath
+        .project
+        .settings/
+        bin/
+        src/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+admin@DESKTOP-7I26G43 MINGW64 ~/Documents/workspace-sts-3.9.12.RELEASE/Java8Examples (master)
+$ git add .
+
+admin@DESKTOP-7I26G43 MINGW64 ~/Documents/workspace-sts-3.9.12.RELEASE/Java8Examples (master)
+$ git commit -m "Added Java8Example Application"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'admin@DESKTOP-7I26G43.(none)')
+
+admin@DESKTOP-7I26G43 MINGW64 ~/Documents/workspace-sts-3.9.12.RELEASE/Java8Examples (master)
+$ git config --global user.email "basha.javatechie@gmail.com"
+
+admin@DESKTOP-7I26G43 MINGW64 ~/Documents/workspace-sts-3.9.12.RELEASE/Java8Examples (master)
+$ git config --global user.nam "shaikbasha6053"
+
+admin@DESKTOP-7I26G43 MINGW64 ~/Documents/workspace-sts-3.9.12.RELEASE/Java8Examples (master)
+$ git commit -m "Added Java8Example Application"
+[master (root-commit) a107099] Added Java8Example Application
+ 35 files changed, 710 insertions(+)
+ create mode 100644 .classpath
+ create mode 100644 .project
+ create mode 100644 .settings/org.eclipse.jdt.core.prefs
+ create mode 100644 bin/com/basha/stream/ABCD.class
+ create mode 100644 bin/com/basha/stream/ArmstrongNum.class
+ create mode 100644 bin/com/basha/stream/Customer.class
+ create mode 100644 bin/com/basha/stream/Employee.class
+ create mode 100644 bin/com/basha/stream/FibanaciSeries.class
+ create mode 100644 bin/com/basha/stream/FilterDemo.class
+ create mode 100644 bin/com/basha/stream/ForEachDemo.class
+ create mode 100644 bin/com/basha/stream/MapVsFlatMap.class
+ create mode 100644 bin/com/basha/stream/MyFunctionalInterface.class
+ create mode 100644 bin/com/basha/stream/MyFunctionalInterfaceImpl.class
+ create mode 100644 bin/com/basha/stream/SortByMultipleFields.class
+ create mode 100644 bin/com/basha/stream/SortingDemo.class
+ create mode 100644 bin/com/basha/stream/SortingEx.class
+ create mode 100644 bin/com/basha/stream/SortingMapDemo.class
+ create mode 100644 bin/com/basha/stream/Student.class
+ create mode 100644 bin/module-info.class
+ create mode 100644 src/com/basha/stream/ABCD.java
+ create mode 100644 src/com/basha/stream/ArmstrongNum.java
+ create mode 100644 src/com/basha/stream/Customer.java
+ create mode 100644 src/com/basha/stream/Employee.java
+ create mode 100644 src/com/basha/stream/FibanaciSeries.java
+ create mode 100644 src/com/basha/stream/FilterDemo.java
+ create mode 100644 src/com/basha/stream/ForEachDemo.java
+ create mode 100644 src/com/basha/stream/MapVsFlatMap.java
+ create mode 100644 src/com/basha/stream/MyFunctionalInterface.java
+ create mode 100644 src/com/basha/stream/MyFunctionalInterfaceImpl.java
+ create mode 100644 src/com/basha/stream/SortByMultipleFields.java
+ create mode 100644 src/com/basha/stream/SortingDemo.java
+ create mode 100644 src/com/basha/stream/SortingEx.java
+ create mode 100644 src/com/basha/stream/SortingMapDemo.java
+ create mode 100644 src/com/basha/stream/Student.java
+ create mode 100644 src/module-info.java
+
+admin@DESKTOP-7I26G43 MINGW64 ~/Documents/workspace-sts-3.9.12.RELEASE/Java8Examples (master)
+$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+admin@DESKTOP-7I26G43 MINGW64 ~/Documents/workspace-sts-3.9.12.RELEASE/Java8Examples (master)
+$ git remote add origin https://github.com/shaikbasha6053/basha_test_repo1
+
+admin@DESKTOP-7I26G43 MINGW64 ~/Documents/workspace-sts-3.9.12.RELEASE/Java8Examples (master)
+$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+
+admin@DESKTOP-7I26G43 MINGW64 ~/Documents/workspace-sts-3.9.12.RELEASE/Java8Examples (master)
+$ git push --set-upstream origin master
+Enumerating objects: 46, done.
+Counting objects: 100% (46/46), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (41/41), done.
+Writing objects: 100% (46/46), 27.04 KiB | 245.00 KiB/s, done.
+Total 46 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/shaikbasha6053/basha_test_repo1/pull/new/master
+remote:
+To https://github.com/shaikbasha6053/basha_test_repo1
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+admin@DESKTOP-7I26G43 MINGW64 ~/Documents/workspace-sts-3.9.12.RELEASE/Java8Examples (master)
+$ git pull
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 5 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (5/5), 1.23 KiB | 6.00 KiB/s, done.
+From https://github.com/shaikbasha6053/basha_test_repo1
+   a107099..ed42c3a  master         -> origin/master
+ * [new branch]      basha_branch_1 -> origin/basha_branch_1
+ * [new branch]      main           -> origin/main
+Updating a107099..ed42c3a
+Fast-forward
+ README.md | 2 ++
+ 1 file changed, 2 insertions(+)
+ create mode 100644 README.md
+
+admin@DESKTOP-7I26G43 MINGW64 ~/Documents/workspace-sts-3.9.12.RELEASE/Java8Examples (master)
+$ git pull
+Already up to date.
+
+admin@DESKTOP-7I26G43 MINGW64 ~/Documents/workspace-sts-3.9.12.RELEASE/Java8Examples (master)
+$ git checkout basha_branch_1
+Switched to a new branch 'basha_branch_1'
+Branch 'basha_branch_1' set up to track remote branch 'basha_branch_1' from 'origin'.
+
+admin@DESKTOP-7I26G43 MINGW64 ~/Documents/workspace-sts-3.9.12.RELEASE/Java8Examples (basha_branch_1)
+$ git pull
+Already up to date.
+
+admin@DESKTOP-7I26G43 MINGW64 ~/Documents/workspace-sts-3.9.12.RELEASE/Java8Examples (basha_branch_1)
+$ git pull origin
+Already up to date.
+
+admin@DESKTOP-7I26G43 MINGW64 ~/Documents/workspace-sts-3.9.12.RELEASE/Java8Examples (basha_branch_1)
+$ git config --global core.editor "C:\Program Files\Notepad++\notepad++.exe^C
+
+admin@DESKTOP-7I26G43 MINGW64 ~/Documents/workspace-sts-3.9.12.RELEASE/Java8Examples (basha_branch_1)
+$ git config --global core.editor "$ git config --global core.editor "C:\Program Files\Notepad++\notepad++.exe""
+
+admin@DESKTOP-7I26G43 MINGW64 ~/Documents/workspace-sts-3.9.12.RELEASE/Java8Examples (basha_branch_1)
+$ git config --global core.editor "C:\Program Files\Notepad++\notepad++.exe"
+
+admin@DESKTOP-7I26G43 MINGW64 ~/Documents/workspace-sts-3.9.12.RELEASE/Java8Examples (basha_branch_1)
+$ git config --global core.editor
+C:\Program Files\Notepad++\notepad++.exe
+
+###############03-06-2023########End#######################
